@@ -18,7 +18,7 @@ Dies kann mit dem Stefan-Boltzmann Gesezt getan werden.
 
 ## Schritt 3
 Die Treibhausgase strahlen auch.
-
+ca. 20-30%
 
 ## Schritt 4
 - $I_{in}$ ist die einkommende Strahlung, sprich die Sonnenstrahlung und Treibhausstrahlung.
