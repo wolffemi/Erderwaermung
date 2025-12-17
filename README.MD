@@ -1,20 +1,29 @@
 # Wie berechnet man die Erderwärmung?
 
 ## Schritt 1
-Bevor wir die globale Erderwärmung betrachten, versuchen wir die Temperatur für einen bestimmten Ort zu bestimmen.
+Zuerst wird die Sonnenstrahlung pro berechnet.
 - $h$ ist die Höhe der Sonne (Horizontsystem)
-$$ I_0: Solarkonstante \approx 1361 \frac{W}{m^2} $$
-$$ I = E_0 * sin(h) $$
+- $ I_0: Solarkonstante \approx 1361 \frac{W}{m^2} $
+- $ I_{in} = E_0 \cdot \sin(h) $
 Da eine tiefer stehende Sonne weniger strahlt pro Quadratmeter, mussen wir es mit dem Sinus der Höhe multiplizieren.
 So würde eine Sonne die genau im Zenit steht (90°) die gesamte Solarkonstant an Energie pro Quadratmeter strahlen.
 
 ## Schritt 2
-Nicht nur die Sonne strahlt, die Erde straht auch zurück
+Nicht nur die Sonne strahlt, die Erde straht auch zurück.
+Dies kann mit dem Stefan-Boltzmann Gesezt tun.
+- $\sigma$ ist die Stefan-Boltzmann Konstante (ca. 5,67E−8)
+- $\epsilon$ ist die Emissivität der Oberfläche (ca. 0,915 fürs Meer und 0,98 fürs Land)
+- $T$ ist die Temperatur der Oberfläche in Kelvin
+- $ I_{out} = \sigma \epsilon T^4 $
 
 ## Schritt 3
-Folgende Differenzialgleichung berechnet die Temperaturveränderung
-- $I_in$ ist die einkommende Strahlung, sprich die Sonnenstrahlung.
-- $I_out$ ist die ausgehende Strahlung, die von der Erdoberfläche abgestrahlt wurde.
+Die Treibhausgase strahlen auch.
+
+## Schritt 4
+- $I_{in}$ ist die einkommende Strahlung, sprich die Sonnenstrahlung und Treibhausstrahlung.
+- $f_{thg}$ ist der Faktor der ausgehenden Strahlung die von Treibhausgasen in der Atomspäre gefangen wird
+- $I_{out}$ ist die ausgehende Strahlung, die von der Erdoberfläche abgestrahlt wurde.
+- $a$ ist der Albedo der Oberfläche, also wie viel des einkommenden Strahlung reflektiert wird
 - $C_s$ ist die Energie die notwndig ist um die Temperatur um ein Kelvin zu erhöhen in $\frac{\frac{J}{m^2}}{K}$
-$$ \Delta T = \frac{(I_in - I_out) \Delta t}{C_s} $$
+- $ \Delta T = \frac{((1-a)I_{in} + $f_{thg}$ I_{out} - I_{out}) \Delta t}{C_s} $
 
