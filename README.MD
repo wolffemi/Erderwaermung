@@ -28,6 +28,7 @@ Dies kann ca. 20-30%
 - $I_{out}$ ist die ausgehende Strahlung, die von der Erdoberfläche abgestrahlt wurde.
 - $a$ ist der Albedo der Oberfläche, also wie viel des einkommenden Strahlung reflektiert wird
 - $C_s$ ist die Energie die notwndig ist um die Temperatur um ein Kelvin zu erhöhen in $\frac{\frac{J}{m^2}}{K}$
+- $\frac{\Delta T}{\Delta t} = \frac{I}{C_s}$
 - $\Delta T = \frac{((1-a) I_{in} + f_{thg} I_{out} - I_{out}) \Delta t}{C_s}$
 
 ## Teil 2: Simulation
