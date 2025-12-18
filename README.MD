@@ -35,7 +35,7 @@ Geschätz wird gerade das ca. 20-30% der ausgehenden infrarot Strahlung von Trei
     30-40% bei dünnen Wolken und bis über 90% bei dichten Wolken.
 - $C_s$ ist die Energie die notwndig ist um die Temperatur um ein Kelvin zu erhöhen in $\frac{\frac{J}{m^2}}{K}$
     - Dieser Faktor hängt von der Oberfläche ab.
-- $\frac{\Delta T}{\Delta t} = \frac{I}{C_s}$
+- $\frac{\Delta T}{\Delta t} = \frac{I \cdot \Delta t}{C_s}$
 - $\Delta T = \frac{((1-a) I_{in} + f_{thg} I_{out} - I_{out}) \Delta t}{C_s}$
 
 ## Teil 2: Simulation
