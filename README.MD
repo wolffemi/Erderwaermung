@@ -40,7 +40,7 @@ Geschätz wird gerade das ca. 20-30% der ausgehenden infrarot Strahlung von Trei
 
 ## Teil 2: Simulation
 
-Es geht in weiter in simulation.ipynb
+Es geht in weiter in [simulation.ipynb](https://github.com/wolffemi/Erderwaermung/blob/main/simulation.ipynb)
 
 ## Quellen
 - [1] URL: https://ibphysicsguide.weebly.com/85-greenhouse-effect.html
