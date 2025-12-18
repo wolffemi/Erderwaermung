@@ -8,13 +8,13 @@ Da eine tiefer stehende Sonne weniger strahlt pro Quadratmeter, mussen wir es mi
 So würde eine Sonne die genau im Zenit steht (90°) die gesamte Solarkonstant an Energie pro Quadratmeter strahlen.
 - $h$ ist die Höhe der Sonne (Horizontsystem)
 - $I_0: Solarkonstante \approx 1361 \frac{W}{m^2}$
-- $I_{in} = E_0 \cdot \sin(h)$
+- $I_{in} = I_0 \cdot \sin(h)$
 
 ### Schritt 2
 Nicht nur die Sonne strahlt, die Erde straht auch zurück.
-Dies kann mit dem Stefan-Boltzmann Gesezt getan werden.
+Dies kann mit dem Stefan-Boltzmann Gesezt berechnet werden.
 - $\sigma$ ist die Stefan-Boltzmann Konstante (ca. $5,67 \times 10^8$)
-- $\epsilon$ ist die Emissivität der Oberfläche (ca. 0,915 fürs Meer und 0,98 fürs Land)
+- $\epsilon$ ist die Emissivität der Oberfläche (ca. $0,915$ fürs Meer und $0,98$ fürs Land)
 - $T$ ist die Temperatur der Oberfläche in Kelvin
 - $I_{out} = \sigma \epsilon T^4$
 
@@ -33,7 +33,7 @@ Geschätz wird gerade das ca. 20-30% der ausgehenden infrarot Strahlung von Trei
     Der Erdboden hat ein Albedo von ca. 20%, Schnee und Eis hingegen von über 90%.
     Viel wichtiger sind aber die Wolken. Hier ist das Albedo aber sehr unterschiedlich: 
     30-40% bei dünnen Wolken und bis über 90% bei dichten Wolken.
-- $C_s$ ist die Energie die notwndig ist um die Temperatur um ein Kelvin zu erhöhen in $\frac{\frac{J}{m^2}}{K}$
+- $C_s$ ist die Energie die notwendig ist um die Temperatur um ein Kelvin/°C zu erhöhen in $\frac{\frac{J}{m^2}}{K}$
     - Dieser Faktor hängt von der Oberfläche ab.
 - $\frac{\Delta T}{\Delta t} = \frac{I \cdot \Delta t}{C_s}$
 - $\Delta T = \frac{((1-a) I_{in} + f_{thg} I_{out} - I_{out}) \Delta t}{C_s}$
